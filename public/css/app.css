@@ -1,0 +1,25 @@
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+}
+.my-footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #e74944;
+    text-align: center;
+}
+.my-footer>h4,
+.my-footer>p{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
